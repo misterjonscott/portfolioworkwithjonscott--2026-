@@ -39,5 +39,13 @@
     "tailwindcss": "^3.4.17",
     "tw-animate-css": "^1.2.9",
     "typescript": "^5"
-  }
+  },
+  "pnpm": {
+      "onlyBuiltDependencies": [
+        "@bundled-es-modules/glob",
+        "sharp",
+        "style-dictionary",
+        "unrs-resolver"
+      ]
+    }
 }

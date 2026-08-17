@@ -1,5 +1,0 @@
-onlyBuiltDependencies:
-  - '@bundled-es-modules/glob'
-  - sharp
-  - style-dictionary
-  - unrs-resolver
