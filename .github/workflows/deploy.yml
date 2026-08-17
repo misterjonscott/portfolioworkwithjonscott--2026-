@@ -21,11 +21,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'pnpm'
 
       - name: Install dependencies and build
         run: |
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm run build  # or whatever your build script is that outputs /out
 
       - name: Sync files to DreamHost
