@@ -227,7 +227,7 @@ const ContactInfo = ({ className }: { className?: string }) => {
             <div className="mt-4 text-center">
                 <p className="text-base text-gray-700 md:text-lg"></p>
                 <a
-                    href="https://www.linkedin.com/in/your-profile"
+                    href="https://www.linkedin.com/in/meetjonscott/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 flex items-center justify-center font-medium text-link"
