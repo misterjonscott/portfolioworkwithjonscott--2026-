@@ -15,9 +15,9 @@ const images = [
     description: "A complete redesign of the Finishline website, focusing on improved performance and user experience."
   },
   {
-    src: "/images/gallery/IndigoRebrandNew.webp",
-    title: "Indigo Rebrand",
-    description: "Visual identity and user interface for Indigo, a rebranding project with a modern, elegant aesthetic."
+    src: "/images/gallery/SkillableInstructorDashboard.webp",
+    title: "Skillable Instructor Dashboard",
+    description: "A dashboard for instructors to manage labs and track student progress in real-time."
   },
   {
     src: "/images/gallery/chex-dashboard.webp",
@@ -25,9 +25,9 @@ const images = [
     description: "A dashboard interface for SCE's control center designed for monitoring data pipelines to help prevent wildfires"
   },
   {
-    src: "/images/gallery/SkillableInstructorDashboard.webp",
-    title: "Skillable Instructor Dashboard",
-    description: "A dashboard for instructors to manage labs and track student progress in real-time."
+    src: "/images/gallery/IndigoRebrandNew.webp",
+    title: "Indigo Rebrand",
+    description: "Visual identity and user interface for Indigo, a rebranding project with a modern, elegant aesthetic."
   },
   {
     src: "/images/gallery/geofeedia-alerts.webp",
