@@ -19,37 +19,111 @@ const capabilities: Record<string, CapabilityGroup> = {
   designCraft: {
     categoryName: 'Design Craft & Token Strategy',
     items: [
-      { id: 'figma', title: 'Figma', text: "I use Figma for UI/UX design, icon illustration, rapid-prototyping, and design-system reference. It facilitates the quick creation of wireframes, interactive prototypes, and high-fidelity mockups for user-centered design." },
-      { id: 'radix', title: 'Radix UI', text: 'Radix UI offers a set of accessible, unstyled primitives for building high-quality design systems and user interfaces that don\'t compromise on bespoke styling.' },
+      {
+        id: 'figma',
+        title: 'Figma',
+        text: 'I use Figma for UI/UX design, icon illustration, rapid prototyping, and design-system reference. It facilitates the quick creation of wireframes, interactive prototypes, and high-fidelity mockups for user-centered design.'
+      },
+      {
+        id: 'radix',
+        title: 'Radix UI',
+        text: "Radix UI offers a set of accessible, unstyled primitives for building high-quality design systems and user interfaces that don't compromise on bespoke styling."
+      },
+      {
+        id: 'token-gov',
+        title: 'Design Token Governance',
+        text: 'Expertise in establishing strict structural parity between Figma component variables and production CSS/Tailwind configuration files, ensuring design changes scale instantly across multiple product lines without friction.'
+      }
     ],
   },
   uiEngineering: {
     categoryName: 'UI Engineering & Parity',
     items: [
-      { id: 'typescript', title: 'TypeScript', text: 'JavaScript has a wise partner in TypeScript, allowing me to build robust, maintainable applications that use strict static typing to prevent runtime errors and ensure code quality.' },
-      { id: 'react', title: 'React', text: "React and I have been building dynamic, component-based user interfaces for almost a decade. Its scalability and structural predictability make it my go-to choice for responsive web apps." },
-      { id: 'nextjs', title: 'Next.js', text: 'Next.js allows for high-performance React architectures using server-side rendering and static generation. When the project demands deep SEO optimization and optimized routing, its value is unmatched.' },
-      { id: 'node', title: 'Node.js', text: 'Node serves as an efficient backend-for-frontend layer, leveraging JavaScript to spinning up fast APIs and quick server logic for full-stack interface prototyping.' },
-      { id: 'framer-motion', title: 'Framer Motion & Web Animations', text: 'I leverage advanced physics-based animation libraries to engineer high-performance, fluid, scroll-driven micro-interactions that elevate the digital narrative without causing layout thrashing or performance drops.' }
+      {
+        id: 'typescript',
+        title: 'TypeScript',
+        text: 'JavaScript has a wise partner in TypeScript, allowing me to build robust, maintainable applications that use strict static typing to prevent runtime errors and ensure code quality.'
+      },
+      {
+        id: 'react',
+        title: 'React',
+        text: 'React and I have been building dynamic, component-based user interfaces for almost a decade. Its scalability and structural predictability make it my go-to choice for responsive web apps.'
+      },
+      {
+        id: 'nextjs',
+        title: 'Next.js',
+        text: 'Next.js allows for high-performance React architectures using server-side rendering and static generation. When the project demands deep SEO optimization and optimized routing, its value is unmatched.'
+      },
+      {
+        id: 'node',
+        title: 'Node.js',
+        text: 'Node serves as an efficient backend-for-frontend layer, leveraging JavaScript to spin up fast APIs, internal build tools, and custom daemon services for full-stack interface prototyping.'
+      },
+      {
+        id: 'framer-motion',
+        title: 'Framer Motion & Web Animations',
+        text: 'I leverage advanced physics-based animation libraries to engineer high-performance, fluid, scroll-driven micro-interactions that elevate the digital narrative without causing layout thrashing or performance drops.'
+      },
+      {
+        id: 'ast-tooling',
+        title: 'AST & Static Code Analysis',
+        text: 'I use the TypeScript Compiler API and ts-morph to perform deterministic Abstract Syntax Tree analysis, extracting living component prop contracts into structured schemas and executing automated, drift-free code refactors.'
+      }
     ],
   },
   stylingSystems: {
     categoryName: 'Styling Systems & APIs',
     items: [
-      { id: 'tailwind', title: 'Tailwind CSS', text: 'Tailwind CSS is a utility-first framework that drastically accelerates UI development and allows design systems to map directly from Figma tokens to atomic utility utilities.' },
-      { id: 'shadcn', title: 'shadcn/ui', text: 'shadcn/ui provides beautifully designed, accessible UI building blocks using Radix primitives and Tailwind CSS, keeping full ownership of the underlying component code.' },
-      { id: 'mui', title: 'Material UI', text: 'When a project doesn\'t feature an established design library, I leverage Material UI for rapid, highly documented UI execution, focusing on custom layer modifications rather than rebuilding primitives.' },
-      { id: 'chakra', title: 'Chakra UI', text: 'Chakra allows for fast, theme-aware layouts with clean semantic prop tokens, making it excellent for rapid interface scaffolding and highly accessible components.' },
-      { id: 'sass', title: 'Sass', text: 'Sass remains highly valuable for nesting, mixing, and creating structured stylesheets that achieve high specificity while eliminating global style collisions.' },
-      { id: 'bootstrap', title: 'Bootstrap', text: 'A classic staple for mobile-first layout scaffolding. It remains exceptional for building responsive, robust utilities when legacy platforms require modern web migrations.' },
-      { id: 'token-gov', title: 'Design Token Governance', text: 'Expertise in establishing strict structural parity between Figma component variables and production CSS/Tailwind configuration files, ensuring design changes scale instantly across multiple product lines without friction.' }
+      {
+        id: 'tailwind',
+        title: 'Tailwind CSS',
+        text: 'Tailwind CSS is a utility-first framework that drastically accelerates UI development and allows design systems to map directly from Figma tokens to atomic utility classes.'
+      },
+      {
+        id: 'shadcn',
+        title: 'shadcn/ui',
+        text: 'shadcn/ui provides beautifully designed, accessible UI building blocks using Radix primitives and Tailwind CSS, keeping full ownership of the underlying component code.'
+      },
+      {
+        id: 'mui',
+        title: 'Material UI',
+        text: "When a project doesn't feature an established design library, I leverage Material UI for rapid, highly documented UI execution, focusing on custom layer modifications rather than rebuilding primitives."
+      },
+      {
+        id: 'chakra',
+        title: 'Chakra UI',
+        text: 'Chakra allows for fast, theme-aware layouts with clean semantic prop tokens, making it excellent for rapid interface scaffolding and highly accessible components.'
+      },
+      {
+        id: 'sass',
+        title: 'Sass',
+        text: 'Sass remains highly valuable for nesting, mixing, and creating structured stylesheets that achieve high specificity while eliminating global style collisions.'
+      },
+      {
+        id: 'bootstrap',
+        title: 'Bootstrap',
+        text: 'A classic staple for mobile-first layout scaffolding. It remains exceptional for building responsive, robust utilities when legacy platforms require modern web migrations.'
+      }
     ],
   },
   infrastructure: {
-    categoryName: 'Infrastructure & Parity',
+    categoryName: 'Infrastructure, Tooling & AI Systems',
     items: [
-      { id: 'git', title: 'Git', text: "My experiences with Git include resolving complex architecture conflicts and team branching anomalies. I treat version control as a tool for collaborative sanity and strict codebase deployment governance." },
-      { id: 'ai-eng', title: 'Agentic Workflows & MCP', text: 'I integrate cutting-edge AI engineering protocols like the Model Context Protocol (MCP) to architect context-aware systems, automating complex development cycles and engineering smart interface behaviors.' }
+      {
+        id: 'git-cicd',
+        title: 'Git & CI/CD Automation',
+        text: 'I treat version control and CI/CD pipelines as strict code governance mechanisms, engineering pre-commit validation gates with husky and automated GitHub Actions workflows that compile living design schemas on push.'
+      },
+      {
+        id: 'mcp-agentic',
+        title: 'Model Context Protocol (MCP) & Tooling',
+        text: 'I architect custom TypeScript MCP servers communicating over stdio to equip AI coding assistants with deterministic, typed tools for component audits, AST extraction, and automated token remediation.'
+      },
+      {
+        id: 'ai-observability',
+        title: 'AI Observability & Telemetry',
+        text: 'I design structured server-side event tracing (NDJSON) to monitor tool invocation rates, payload validation, and execution latency, actively identifying and mitigating non-deterministic agent fallback behaviors.'
+      }
     ],
   },
 };

@@ -7,31 +7,30 @@ import { useRef } from "react";
 
 const features = [
   {
-    // Upgraded from UserRound to Layers to perfectly symbolize system tokens
     icon: Layers, 
     title: "Design Craft & Token Systems",
-    description: "I don't just design static layouts; I construct scalable design token architectures and accessible component primitives using tools like Figma and Radix UI. My focus is on building a robust, systemic language that guarantees visual consistency and execution quality at scale.",
+    description: "I construct scalable design token architectures and accessible component primitives using tools like Figma and Radix UI. My focus is on engineering a systemic language that enforces visual consistency and strict execution quality across multi-brand systems.",
     color: "bg-purple-600/40",
     inputRange: [0.35, 0.45, 0.55],
   },
   {
     icon: Code,
     title: "UI Engineering & Component Parity",
-    description: "I implement what I design natively in robust, typed front-end systems using TypeScript, React, Next.js, and Node.js. By designing component APIs that mirror visual assets, I maintain absolute parity between design environments and production code bases.",
+    description: "I implement what I design natively in robust, typed front-end systems using TypeScript, React, Next.js, and Node.js. Using AST static analysis and strict component contracts, I guarantee absolute runtime and architectural parity between Figma and production code.",
     color: "bg-purple-600/40",
     inputRange: [0.4, 0.5, 0.6],
   },
   {
     icon: Brush,
     title: "Styling Architectures & Animation",
-    description: "Expert in crafting lightweight, low-latency UI layers using Tailwind CSS, shadcn/ui, and advanced Sass layouts. I utilize Framer Motion and native web animations to add fluid, purposeful motion that guides user focus and elevates the product's premium feel without sacrificing performance.",
+    description: "Expert in crafting lightweight, low-latency UI layers using Tailwind CSS, shadcn/ui, and structured CSS/Sass architectures. I utilize Framer Motion to engineer purposeful, physics-based micro-interactions that elevate the digital narrative without layout thrashing.",
     color: "bg-purple-600/40",
     inputRange: [0.45, 0.55, 0.65],
   },
   {
     icon: Cpu,
-    title: "Velocity, Infrastructure & AI",
-    description: "I optimize developer experience and team leverage by building clean CI/CD patterns and integrating cutting-edge AI infrastructure, including agentic workflows and Model Context Protocol (MCP) implementations, to automate the mundane and ship features faster.",
+    title: "Tooling, CI/CD & Agentic AI",
+    description: "I expand developer leverage by engineering custom Model Context Protocol (MCP) servers, automated AST linting gates in CI/CD, and server-side telemetry. I turn LLMs from conversational toys into deterministic systems that actively enforce design standards.",
     color: "bg-purple-600/40",
     inputRange: [0.5, 0.6, 0.7],
   },
@@ -100,7 +99,7 @@ const About = () => {
         />
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-black tracking-tight text-foreground font-title">
-            Staff Design Engineer & UX Architect
+            Staff Design Engineer
           </h1>
           <p className="mt-4 text-base md:text-lg text-muted-foreground leading-relaxed font-normal font-body">
             20+ years blending high-fidelity visual systems with production-ready code. Specialized in architecting composable design token systems, strict component APIs, and AI-accelerated engineering pipelines that eliminate handoff friction and maximize interface velocity.
