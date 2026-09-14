@@ -1,0 +1,19 @@
+# UI Engineering & Component Guardrails
+
+1. **Design System & Component Parity**:
+   - Before authoring, modifying, or wrapping any UI component or primitive, do NOT invent or guess props.
+   - Use the `get_component_props` tool from `designops-agent` to query verified contracts using:
+     - `catalogPath`: `/Users/jonscott/Documents/portfolioworkwithjonscott (2026)/docs/component-catalog.json`
+     - `componentName`: The target component name.
+   - Only supply props that exist in the returned schema.
+
+2. **Tailwind & Styling Compliance**:
+   - Do NOT introduce raw `style={{ ... }}` attributes unless required for dynamic motion/animation values.
+   - Do NOT introduce arbitrary bracket utilities (e.g., `w-[320px]`, `bg-[#123456]`) when standard utility classes or design tokens exist.
+   - Run `audit_tailwind_compliance` when checking feature completeness.
+
+## Token Audit & Remediation Protocol
+- Whenever `detect_token_opportunities` is executed:
+  1. Group the findings by recurrence.
+  2. Propose semantic design token names (e.g., `surface-*`, `accent-*`, `text-*`) for any hex value appearing 2+ times.
+  3. Ask the user for confirmation before executing `register_design_token` or `apply_token_replacement`.

@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import designTokens from './app/tokens.json';
 module.exports = {
   darkMode: 'class',
   content: [
@@ -10,13 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Add custom breakpoints here
       screens: {
-        sm: '640px',   // Small devices (landscape phones)
-        md: '768px',   // Medium devices (tablets)
-        lg: '1024px',  // Large devices (desktops)
-        xl: '1280px',  // Extra large devices (large desktops)
-        '2xl': '1536px' // 2xl devices (larger desktops)
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px'
       },
       borderColor: {
         DEFAULT: 'var(--border)',
@@ -44,10 +42,12 @@ module.exports = {
           foreground: 'var(--accent-foreground)',
         },
         link: 'var(--link-color)',
-        brand: designTokens.color?.['brand-primary']?.value || '#002f6c',
+        // Clean CSS variable linkage without inline JS fallbacks
+        brand: 'var(--brand-primary)',
       },
       spacing: {
-        'brand-md': designTokens.spacing?.md?.value ? `${designTokens.spacing.md.value}px` : '16px',
+        // Pure variable reference—Style Dictionary handles the 'px' suffix now
+        'brand-md': 'var(--spacing-brand-md)',
       }
     },
   },

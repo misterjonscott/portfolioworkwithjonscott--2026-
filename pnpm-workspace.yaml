@@ -1,0 +1,9 @@
+#  ADD THIS TO YOUR pnpm-workspace.yaml
+packages:
+  - "packages/*"
+
+allowBuilds:
+  "@bundled-es-modules/glob": true
+  "sharp": true
+  "style-dictionary": true
+  "unrs-resolver": true

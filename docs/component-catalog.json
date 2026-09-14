@@ -1,0 +1,2164 @@
+[
+  {
+    "component": "SmoothScroll",
+    "relativePath": "components/SmoothScroll.tsx",
+    "propsCount": 3,
+    "props": [
+      {
+        "name": "children",
+        "type": "React.ReactNode",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "onSectionChange",
+        "type": "(section: string) => void",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "currentSection",
+        "type": "string",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "avatarcircles",
+    "relativePath": "components/avatarcircles.tsx",
+    "propsCount": 11,
+    "props": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "position",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "opacity",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "radius",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "speed",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "imageUrl",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "alt",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "className",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "scrollYProgress",
+        "type": "import(\"/Users/jonscott/Documents/portfolioworkwithjonscott (2026)/node_modules/.pnpm/motion-dom@12.23.12/node_modules/motion-dom/dist/index\").MotionValue<number>",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "footer",
+    "relativePath": "components/footer.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "header",
+    "relativePath": "components/header.tsx",
+    "propsCount": 2,
+    "props": [
+      {
+        "name": "currentSection",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "setCurrentSection",
+        "type": "(section: string) => void",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "hero",
+    "relativePath": "components/hero.tsx",
+    "propsCount": 8,
+    "props": [
+      {
+        "name": "x",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "y",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "z",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "rotation",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "distortProps",
+        "type": "{ nu: number; col1: string; col2: string; }",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "nu",
+        "type": "number",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "col1",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "col2",
+        "type": "string",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "CaseStudyGeofeedia",
+    "relativePath": "components/casestudies/CaseStudyGeofeedia.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "CaseStudyIndigo",
+    "relativePath": "components/casestudies/CaseStudyIndigo.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "CaseStudyLevelUp",
+    "relativePath": "components/casestudies/CaseStudyLevelUp.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "CaseStudyLids",
+    "relativePath": "components/casestudies/CaseStudyLids.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "CaseStudySharpen",
+    "relativePath": "components/casestudies/CaseStudySharpen.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "CaseStudySkillable",
+    "relativePath": "components/casestudies/CaseStudySkillable.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "button",
+    "relativePath": "components/ui/button.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "card",
+    "relativePath": "components/ui/card.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "input",
+    "relativePath": "components/ui/input.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "label",
+    "relativePath": "components/ui/label.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "select",
+    "relativePath": "components/ui/select.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "slider",
+    "relativePath": "components/ui/slider.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "switch",
+    "relativePath": "components/ui/switch.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "textarea",
+    "relativePath": "components/ui/textarea.tsx",
+    "propsCount": 292,
+    "props": [
+      {
+        "name": "autoComplete",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "cols",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "dirName",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "disabled",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "form",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "maxLength",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "minLength",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "name",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "placeholder",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "readOnly",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "required",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "rows",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "value",
+        "type": "string | number | readonly string[] | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "wrap",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onChange",
+        "type": "React.ChangeEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "defaultChecked",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "defaultValue",
+        "type": "string | number | readonly string[] | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "suppressContentEditableWarning",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "suppressHydrationWarning",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "accessKey",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "autoCapitalize",
+        "type": "\"off\" | \"none\" | \"on\" | \"sentences\" | \"words\" | \"characters\" | (string & {}) | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "autoFocus",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "className",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "contentEditable",
+        "type": "Booleanish | \"inherit\" | \"plaintext-only\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "contextMenu",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "dir",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "draggable",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "enterKeyHint",
+        "type": "\"enter\" | \"done\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "hidden",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "id",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "lang",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "nonce",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "slot",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "spellCheck",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "style",
+        "type": "React.CSSProperties | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "tabIndex",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "title",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "translate",
+        "type": "\"yes\" | \"no\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "radioGroup",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "role",
+        "type": "React.AriaRole | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "about",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "content",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "datatype",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "inlist",
+        "type": "any",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "prefix",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "property",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "rel",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "resource",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "rev",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "typeof",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "vocab",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "autoCorrect",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "autoSave",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "color",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "itemProp",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "itemScope",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "itemType",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "itemID",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "itemRef",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "results",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "security",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "unselectable",
+        "type": "\"off\" | \"on\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "popover",
+        "type": "\"\" | \"auto\" | \"manual\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "popoverTargetAction",
+        "type": "\"toggle\" | \"show\" | \"hide\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "popoverTarget",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "inert",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "inputMode",
+        "type": "\"none\" | \"search\" | \"text\" | \"tel\" | \"url\" | \"email\" | \"numeric\" | \"decimal\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "is",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "exportparts",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "part",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-activedescendant",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-atomic",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-autocomplete",
+        "type": "\"none\" | \"list\" | \"inline\" | \"both\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-braillelabel",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-brailleroledescription",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-busy",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-checked",
+        "type": "boolean | \"true\" | \"false\" | \"mixed\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-colcount",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-colindex",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-colindextext",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-colspan",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-controls",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-current",
+        "type": "boolean | \"true\" | \"false\" | \"page\" | \"step\" | \"location\" | \"date\" | \"time\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-describedby",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-description",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-details",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-disabled",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-dropeffect",
+        "type": "\"none\" | \"link\" | \"copy\" | \"execute\" | \"move\" | \"popup\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-errormessage",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-expanded",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-flowto",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-grabbed",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-haspopup",
+        "type": "boolean | \"true\" | \"false\" | \"dialog\" | \"grid\" | \"listbox\" | \"menu\" | \"tree\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-hidden",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-invalid",
+        "type": "boolean | \"true\" | \"false\" | \"grammar\" | \"spelling\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-keyshortcuts",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-label",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-labelledby",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-level",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-live",
+        "type": "\"off\" | \"assertive\" | \"polite\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-modal",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-multiline",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-multiselectable",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-orientation",
+        "type": "\"horizontal\" | \"vertical\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-owns",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-placeholder",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-posinset",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-pressed",
+        "type": "boolean | \"true\" | \"false\" | \"mixed\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-readonly",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-relevant",
+        "type": "\"text\" | \"additions\" | \"additions removals\" | \"additions text\" | \"all\" | \"removals\" | \"removals additions\" | \"removals text\" | \"text additions\" | \"text removals\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-required",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-roledescription",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-rowcount",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-rowindex",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-rowindextext",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-rowspan",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-selected",
+        "type": "Booleanish | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-setsize",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-sort",
+        "type": "\"none\" | \"ascending\" | \"descending\" | \"other\" | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-valuemax",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-valuemin",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-valuenow",
+        "type": "number | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "aria-valuetext",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "children",
+        "type": "React.ReactNode",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "dangerouslySetInnerHTML",
+        "type": "{ __html: string | TrustedHTML; } | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCopy",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCopyCapture",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCut",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCutCapture",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPaste",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPasteCapture",
+        "type": "React.ClipboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionEnd",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionEndCapture",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionStart",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionStartCapture",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionUpdate",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCompositionUpdateCapture",
+        "type": "React.CompositionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onFocus",
+        "type": "React.FocusEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onFocusCapture",
+        "type": "React.FocusEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onBlur",
+        "type": "React.FocusEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onBlurCapture",
+        "type": "React.FocusEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onChangeCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onBeforeInput",
+        "type": "React.InputEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onBeforeInputCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onInput",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onInputCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onReset",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onResetCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSubmit",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSubmitCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onInvalid",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onInvalidCapture",
+        "type": "React.FormEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoad",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onError",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onErrorCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyDown",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyDownCapture",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyPress",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyPressCapture",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyUp",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onKeyUpCapture",
+        "type": "React.KeyboardEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAbort",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAbortCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCanPlay",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCanPlayCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCanPlayThrough",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onCanPlayThroughCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDurationChange",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDurationChangeCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEmptied",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEmptiedCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEncrypted",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEncryptedCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEnded",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onEndedCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadedData",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadedDataCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadedMetadata",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadedMetadataCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadStart",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLoadStartCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPause",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPauseCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPlay",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPlayCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPlaying",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPlayingCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onProgress",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onProgressCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onRateChange",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onRateChangeCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSeeked",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSeekedCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSeeking",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSeekingCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onStalled",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onStalledCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSuspend",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSuspendCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTimeUpdate",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTimeUpdateCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onVolumeChange",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onVolumeChangeCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onWaiting",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onWaitingCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAuxClick",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAuxClickCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onClick",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onClickCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onContextMenu",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onContextMenuCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDoubleClick",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDoubleClickCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDrag",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragEnd",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragEndCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragEnter",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragEnterCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragExit",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragExitCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragLeave",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragLeaveCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragOver",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragOverCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragStart",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDragStartCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDrop",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onDropCapture",
+        "type": "React.DragEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseDown",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseDownCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseEnter",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseLeave",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseMove",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseMoveCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseOut",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseOutCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseOver",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseOverCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseUp",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onMouseUpCapture",
+        "type": "React.MouseEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSelect",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onSelectCapture",
+        "type": "React.ReactEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchCancel",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchCancelCapture",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchEnd",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchEndCapture",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchMove",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchMoveCapture",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchStart",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTouchStartCapture",
+        "type": "React.TouchEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerDown",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerDownCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerMove",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerMoveCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerUp",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerUpCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerCancel",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerCancelCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerEnter",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerLeave",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerOver",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerOverCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerOut",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onPointerOutCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onGotPointerCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onGotPointerCaptureCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLostPointerCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onLostPointerCaptureCapture",
+        "type": "React.PointerEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onScroll",
+        "type": "React.UIEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onScrollCapture",
+        "type": "React.UIEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onScrollEnd",
+        "type": "React.UIEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onScrollEndCapture",
+        "type": "React.UIEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onWheel",
+        "type": "React.WheelEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onWheelCapture",
+        "type": "React.WheelEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationStart",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationStartCapture",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationEnd",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationEndCapture",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationIteration",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onAnimationIterationCapture",
+        "type": "React.AnimationEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onToggle",
+        "type": "React.ToggleEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onBeforeToggle",
+        "type": "React.ToggleEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionCancel",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionCancelCapture",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionEnd",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionEndCapture",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionRun",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionRunCapture",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionStart",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "onTransitionStartCapture",
+        "type": "React.TransitionEventHandler<T> | undefined",
+        "required": false,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "About",
+    "relativePath": "sections/About.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "Contact",
+    "relativePath": "sections/Contact.tsx",
+    "propsCount": 7,
+    "props": [
+      {
+        "name": "label",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "fieldName",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "required",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "errorMessage",
+        "type": "React.ReactNode",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "children",
+        "type": "React.ReactNode",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "hasError",
+        "type": "boolean | undefined",
+        "required": false,
+        "description": null
+      },
+      {
+        "name": "className",
+        "type": "string | undefined",
+        "required": false,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "Projects",
+    "relativePath": "sections/Projects.tsx",
+    "propsCount": 6,
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "imageSrc",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "component",
+        "type": "React.LazyExoticComponent<React.ComponentType<Record<string, never>>>",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "content",
+        "type": "React.ReactNode",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "onClose",
+        "type": "() => void",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "Recommendations",
+    "relativePath": "sections/Recommendations.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
+    "component": "Skills",
+    "relativePath": "sections/Skills.tsx",
+    "propsCount": 5,
+    "props": [
+      {
+        "name": "id",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "categoryName",
+        "type": "string",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "items",
+        "type": "SkillItem[]",
+        "required": true,
+        "description": null
+      }
+    ]
+  },
+  {
+    "component": "Snapshots",
+    "relativePath": "sections/Snapshots.tsx",
+    "propsCount": 0,
+    "props": []
+  }
+]

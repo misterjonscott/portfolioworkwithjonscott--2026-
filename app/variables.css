@@ -3,6 +3,25 @@
  */
 
 :root {
-  --collection-1-brand-primary: #002f6c;
-  --collection-1-spacing-md: 16rem;
+  --brand-primary: #002f6c;
+  --spacing-brand-md: 16rem;
+  --surface-dark: #22223b;
+  --surface-navy: #355070;
+  --accent-teal: #319795;
+  --accent-blue: #004e98;
+  --accent-muted-blue: #3a6ea5;
+  --accent-light-blue: #88bbd6;
+  --accent-orange: #ff6700;
+  --accent-yellow: #ffc94b;
+  --accent-sky: #70d6ff;
+  --accent-pink: #ff70a6;
+  --accent-coral: #ff9770;
+  --accent-light-yellow: #ffd670;
+  --accent-lime: #e9ff70;
+  --accent-purple: #9b5de5;
+  --accent-magenta: #f15bb5;
+  --accent-gold: #fee440;
+  --accent-cyan: #00bbf9;
+  --accent-mint: #00f5d4;
+  --brand-linkedin: #0072b1;
 }
