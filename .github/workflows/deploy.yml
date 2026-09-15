@@ -1,16 +1,24 @@
-name: Deploy to DreamHost
+name: Build, Knowledge Sync & Deploy
 
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
-  web-deploy:
-    name: Build and Deploy
+  validate-build-deploy:
+    name: Validate, Catalog & Deploy
     runs-on: ubuntu-latest
+
     steps:
-      - name: Get latest code
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -21,13 +29,32 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: "pnpm"
 
-      - name: Install dependencies and build
-        run: |
-          pnpm install --no-frozen-lockfile
-          pnpm run build  # or whatever your build script is that outputs /out
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+        env:
+          HUSKY: 0 # Prevent husky lifecycle failures in CI
+
+      - name: Run ESLint & Type Checks
+        run: pnpm run lint
+
+      - name: Generate Component Knowledge Catalog
+        run: pnpm run generate:catalog
+
+      - name: Commit Updated Catalog Artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(ai-schema): auto-update component catalog [skip ci]"
+          file_pattern: "docs/component-catalog.json"
+
+      - name: Build static export
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: pnpm run build
 
       - name: Sync files to DreamHost via SFTP
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
