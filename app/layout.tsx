@@ -16,6 +16,10 @@ const geistTitle = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://workwithjonscott.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: "Jon Scott - UX Design and Development",
   description: "The works and a hint of personality of Jon Scott, a UX designer and developer.",
 };
