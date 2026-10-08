@@ -59,7 +59,7 @@ const Header: React.FC<HeaderProps> = ({ currentSection, setCurrentSection }) =>
           </button>
         </div>
         <div className="hidden md:flex gap-4">
-          {['home', 'about', 'snapshots', 'projects', 'skills', 'recommendations', 'contact'].map((section) => (
+          {['home', 'about', 'showcase', 'projects', 'snapshots', 'skills', 'recommendations', 'contact'].map((section) => (
             <div key={section} className="relative">
               <button
                 onClick={() => handleNavigation(section)}
@@ -91,7 +91,7 @@ const Header: React.FC<HeaderProps> = ({ currentSection, setCurrentSection }) =>
             <X size={24} />
           </button>
           <div className="mt-4 flex flex-col items-end">
-            {['home', 'about', 'snapshots', 'projects', 'skills', 'recommendations', 'contact'].map((section) => (
+            {['home', 'about', 'showcase', 'projects', 'snapshots', 'skills', 'recommendations', 'contact'].map((section) => (
               <div key={section} className="relative">
                 <button
                   onClick={() => handleNavigation(section)}

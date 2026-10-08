@@ -10,6 +10,7 @@ import SplashScreen from '@/components/hero';
 const About = dynamic(() => import('@/sections/About'), { ssr: false });
 const Snapshots = dynamic(() => import('@/sections/Snapshots'), { ssr: false });
 const Projects = dynamic(() => import('@/sections/Projects'), { ssr: false });
+const Showcase = dynamic(() => import('@/sections/Showcase'), { ssr: false });
 const Skills = dynamic(() => import('@/sections/Skills'), { ssr: false });
 const Recommendations = dynamic(() => import('@/sections/Recommendations'), { ssr: false });
 const Contact = dynamic(() => import('@/sections/Contact'), { ssr: false });
@@ -21,8 +22,9 @@ const Home = () => {
 
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
-  const snapshotsRef = useRef(null);
+  const showcaseRef = useRef(null);
   const projectsRef = useRef(null);
+  const snapshotsRef = useRef(null);
   const skillsRef = useRef(null);
   const recommendationsRef = useRef(null);
   const contactRef = useRef(null);
@@ -30,6 +32,7 @@ const Home = () => {
   const isHomeInView = useInView(homeRef, { margin: "-50% 0px -50% 0px" });
   const isAboutInView = useInView(aboutRef, { margin: "-50% 0px -50% 0px" });
   const isSnapshotsInView = useInView(snapshotsRef, { margin: "-50% 0px -50% 0px" });
+  const isShowcaseInView = useInView(showcaseRef, { margin: "-50% 0px -50% 0px" });
   const isProjectsInView = useInView(projectsRef, { margin: "-50% 0px -50% 0px" });
   const isSkillsInView = useInView(skillsRef, { margin: "-50% 0px -50% 0px" });
   const isRecommendationsInView = useInView(recommendationsRef, { margin: "-50% 0px -50% 0px" });
@@ -39,8 +42,9 @@ const Home = () => {
     const newActiveSection = 
       (isHomeInView && 'home') ||
       (isAboutInView && 'about') ||
-      (isSnapshotsInView && 'snapshots') ||
+      (isShowcaseInView && 'showcase') ||
       (isProjectsInView && 'projects') ||
+      (isSnapshotsInView && 'snapshots') ||
       (isSkillsInView && 'skills') ||
       (isRecommendationsInView && 'recommendations') ||
       (isContactInView && 'contact');
@@ -52,8 +56,9 @@ const Home = () => {
   }, [
     isHomeInView,
     isAboutInView,
-    isSnapshotsInView,
     isProjectsInView,
+    isShowcaseInView,
+    isSnapshotsInView,
     isSkillsInView,
     isRecommendationsInView,
     isContactInView,
@@ -68,11 +73,14 @@ const Home = () => {
       <section id="about" ref={aboutRef} className="relative">
         <About />
       </section>
-      <section id="snapshots" ref={snapshotsRef} className="relative">
-        <Snapshots />
+      <section id="showcase" ref={showcaseRef} className="relative">
+        <Showcase />
       </section>
       <section id="projects" ref={projectsRef} className="relative">
         <Projects />
+      </section>
+      <section id="snapshots" ref={snapshotsRef} className="relative">
+        <Snapshots />
       </section>
       <section id="skills" ref={skillsRef} className="relative">
         <Skills />

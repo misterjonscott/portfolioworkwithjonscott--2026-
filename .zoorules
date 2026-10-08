@@ -1,0 +1,28 @@
+# Wavii.io — System Architecture & Context
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+## 1. Project Overview
+(coming soon)
+
+## 2. Tech Stack
+- **Framework:** Next.js (App Router, Turbopack)
+- **Language:** TypeScript (Strict interfaces for all APIs and State)
+- **Styling:** Tailwind CSS + ShadCN UI (Radix Primitives)
+- **State Management:** Zustand (with `persist` middleware for localStorage)
+- **Icons:** Lucide React
+
+## Zoo Agent Constraints & Token Discipline
+
+### A. Context Discovery & File Retrieval
+- **Surgical Search Permitted:** You may use codebase search (regex/ripgrep or file outline symbols) to locate where functions, types, and hooks are declared or consumed.
+- **Selective Inspection:** When investigating an issue across boundaries, read only the relevant function definitions or type declarations, never full directory listings or unreferenced files.
+- **Explicit Blocklist:** Do NOT load `MOCK_EVENTS` payloads, build artifacts (`.next/`, `node_modules/`), or test fixtures into context. Always reference shared TypeScript definitions in `src/types/` for data structure contracts.
+
+### B. Execution Efficiency
+- **Targeted Edits:** Use line-level diffs or targeted component slices rather than rewriting entire multi-hundred-line files.
+- **Architectural Guardrails:** Enforce strict typing on `WaviiEvent`, preserve the adapter layer in `src/lib/adapters.ts`, and respect `'use client'` boundaries.
