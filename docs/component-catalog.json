@@ -2119,6 +2119,12 @@
     "props": []
   },
   {
+    "component": "Showcase",
+    "relativePath": "sections/Showcase.tsx",
+    "propsCount": 0,
+    "props": []
+  },
+  {
     "component": "Skills",
     "relativePath": "sections/Skills.tsx",
     "propsCount": 5,
